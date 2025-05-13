@@ -6,7 +6,7 @@ import { Toaster } from "@/components/ui/toaster";
 function App() {
   return<>
     <Toaster />
-    <BrowserRouter>
+    <BrowserRouter basename="/portafolio">
       <Routes>
         <Route index element={<Home />} />
         <Route path="*" element={<NotFound />} />

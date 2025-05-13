@@ -4,6 +4,7 @@ import { NotFound } from "./pages/NotFound";
 import { Toaster } from "@/components/ui/toaster";
 
 function App() {
+  console.log("✅ App.jsx se ha montado correctamente");
   return (
     <>
       <Toaster />

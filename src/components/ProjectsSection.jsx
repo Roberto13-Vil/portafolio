@@ -6,7 +6,7 @@ const projects = [
         title: "Spotify Hits Analysis",
         description:
             "End-to-end data analysis and machine learning project using the Top Spotify Tracks. Focused on data preprocessing, classification, clustering, and model evaluation.",
-        image: "/projects/spotify.jpg",
+        image: "src/components/projects/spotify.jpg",
         tags: ["Python", "Pandas", "scikit-learn", "EDA", "Clustering", "Classification"],
         demoUrl: "#",
         githubUrl: "#",
@@ -16,7 +16,7 @@ const projects = [
         title: "Forecasting Life Expectancy in Mexico",
         description:
             "Time series analysis focused on predicting Mexico's life expectancy using historical data. Applied data cleaning, visualization, and forecasting with ARIMA.",
-        image: "/projects/life_expectancy.jpg",
+        image: "src/components/projects/life_expectancy.jpg",
         tags: ["Python", "Time Series", "ARIMA", "Pandas", "Statsmodels"],
         demoUrl: "#",
         githubUrl: "#",
